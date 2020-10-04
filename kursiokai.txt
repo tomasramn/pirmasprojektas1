@@ -1,7 +1,7 @@
-Rokas Mazurauskas 8 9 10 6 10 9
-Linas Baptas 7 10 8 5 4 6
-Jurate Vaiciulyte 4 6 7 3 6 7
-Emilija Daunoraviciute 6 9 10 5 8 10
-Tautvydas Buteikis 10 9 10 7 9 10
-Grazvile Gudaite 10 10 10 9 10 10
-Lina Dambrauskaite 5 2 10 6 1 5
+Rokas      Mazurauskas      8 9 10 6 10 9
+Linas      Baptas           7 10 8 5 4 6
+Jurate     Vaiciulyte       4 6 7 3 6 7
+Emilija    Daunoraviciute   6 9 10 5 8 10
+Tautvydas  Buteikis         10 9 10 7 9 10
+Grazvile   Gudaite          10 10 10 9 10 10
+Lina       Dambrauskaite    5 2 10 6 1 5

@@ -1,4 +1,4 @@
-# V0.1 Versija
+# V0.2 Versija
 
 # Programos esmė:
 

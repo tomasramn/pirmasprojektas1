@@ -9,15 +9,9 @@
 using namespace std;
 
 struct studentas {
-	string Vardas;
-	string Pavarde;
-	int Pazymiai[DYDIS];
-	float Egzaminas;
-	float mediana = 0;
-	float vidurkis = 0;
-	float rez = 0;
-	int num = 0;
-	int pasirinkimas;
+	string Vardas, Pavarde;
+	int Pazymiai[DYDIS], num = 0;
+	float Egzaminas, mediana = 0, vidurkis = 0, rez = 0;
 	vector<float> paz;
 };
 int pasirinkimas;
@@ -94,7 +88,7 @@ int main()
 
 		for (int i = 0; i < rinkis && !data.eof(); i++) {
 			data >> Eilute.Vardas >> Eilute.Pavarde;
-			for (int j = 0; j < 5; j++) { // Maiau u 5, nes max pazymiu yra 5
+			for (int j = 0; j < 5; j++) { // MaÅ¾iau uÅ¾ 5, nes max pazymiu yra 5
 				data >> paz;
 				nd.push_back(paz);
 				Eilute.rez = Eilute.rez + paz;
@@ -142,7 +136,6 @@ int main()
 				}
 			}
 			int randpaz;
-			int n = 0;
 			int psrnk = 0;
 			cout << "Noredami sugeneruoti bet koki namu darbu pazymi, irasykite '-1', Noredami ivesti rezultata paciam, irasykite '0' \n";
 			cin >> randpaz;

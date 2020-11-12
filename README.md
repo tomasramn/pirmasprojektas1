@@ -51,3 +51,4 @@ vartotojas yra paprašomas įvesti norimą pažymių skaičių.
 3. Gauti rezultatai yra faile "KonteineriuTestavimas.png".
 4. Testavimo sistemos parametrai: CPU: Intel Core i7-10510U, 4 cores RAM: 16GB, SSD: 512GB.
 5. Programa buvo kurta MS Visual Studio x64. 
+6. Galima paleisti V05.exe failą, kuris sukompiliuos programą.

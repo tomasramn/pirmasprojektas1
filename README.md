@@ -48,6 +48,6 @@ vartotojas yra paprašomas įvesti norimą pažymių skaičių.
 ## Kas padaryta?
 1. Dabar duomenys talpinami ne tik Vector bet ir List konteineryje.
 2. Išvedama programos vector ir list konteinerių veikimo greičio analizė: duomenų nuskaitymas iš failų bei studentų surūšiavimas į dvi grupes.
-3. Gauti rezultatai yra faile "KonteineriuTestavimas.png"
-4 Testavimo sistemos parametrai: CPU: Intel Core i7-10510U, 4 cores RAM: 16GB, SSD: 512GB.
+3. Gauti rezultatai yra faile "KonteineriuTestavimas.png".
+4. Testavimo sistemos parametrai: CPU: Intel Core i7-10510U, 4 cores RAM: 16GB, SSD: 512GB.
 5. Programa buvo kurta MS Visual Studio x64. 

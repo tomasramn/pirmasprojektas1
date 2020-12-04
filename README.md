@@ -88,4 +88,4 @@ Programą, realizuojant su listu, pradžioje (iki 1mln) greičiau rūšiuojama a
 |10000000            |31.7478 s                         |8.21397 s                         |
  
 **Išvados :** <br/>
-Aiškiai matoma, jog antru būdu, studentai rūšiuojami žymiai greičiau.
+Aiškiai matoma, jog antru būdu, studentai rūšiuojami žymiai greičiau. Vadinasi, panaudojant vieną konteinerį, programos efektyvumas itin padidėjo.

@@ -52,3 +52,33 @@ vartotojas yra paprašomas įvesti norimą pažymių skaičių.
 4. Testavimo sistemos parametrai: CPU: Intel Core i7-10510U, 4 cores RAM: 16GB, SSD: 512GB.
 5. Programa buvo kurta MS Visual Studio x64. 
 6. Galima paleisti V05.exe failą, kuris sukompiliuos programą.
+# V1.0
+# LIST
+**Testavimo sistemos parametrai :** <br/>
+CPU: i7-10510U 1.80 GHz <br/>
+RAM: 16GB <br/>
+HDD: 512GB <br/>
+## Pirmos ir antros studentų dalijimo strategijų palyginimas :
+| Studentų skaičius | Rūšiavimo laikas (1 būdas)  | Rūšiavimo laikas (2 būdas)  |
+|-------------------|----------------------------------|----------------------------------|
+|1000                |0.0002476 s                       |0.0001152 s                       |
+|10000               |0.0031738 s                       |0.0018162 s                       |
+|100000              |0.0580081 s                       |0.0473399 s                       |
+|1000000             |0.942187 s                        |1.06754 s                         |
+|10000000            |14.1784 s                         |16.8178 s                         |
+ 
+**Išvados :** <br/>
+Programą, realizuojant su listu, pradžioje (iki 1mln) greičiau rūšiuojama antru būdu, tačiau 1mln ir 10mln greičiau surūšiuoja pirmasis būdas.
+
+# VECTOR
+## Pirmo ir antro būdo studentų rūšiavimo palyginimas :
+| Studentų skaičius | Rūšiavimo laikas (1 būdas)  | Rūšiavimo laikas (2 būdas)  |
+|-------------------|----------------------------------|----------------------------------|
+|1000                |0.0092423 s                       |0.0007012 s                       |
+|10000               |0.0436779 s                       |0.0092825 s                       |
+|100000              |0.309093 s                        |0.0714911 s                       |
+|1000000             |3.1015 s                          |0.7924 s                          |
+|10000000            |31.7478 s                         |8.21397 s                         |
+ 
+**Išvados :** <br/>
+Aiškiai matoma, jog antru būdu, studentai rūšiuojami žymiai greičiau.

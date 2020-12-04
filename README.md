@@ -53,6 +53,13 @@ vartotojas yra paprašomas įvesti norimą pažymių skaičių.
 5. Programa buvo kurta MS Visual Studio x64. 
 6. Galima paleisti V05.exe failą, kuris sukompiliuos programą.
 # V1.0
+## Kas padaryta?
+1. Du būdai: 
+a)iš bendro konteinerio išskirstyti į du papildomus
+b) Iš bendro "studfile" konteinerio išrenkami vargšiukai, o bendrame konteineryje paliekami galvočiai. 
+2. Programų testavimo nuotraukos yra įkeltos į ProgramosTestavimas folderį.
+3. Vektoriams padidintas efektyvumas naudojant iteratorius ir find_if funkciją.
+3. Makefile skirtas UNIX OS atveju.
 # LIST
 **Testavimo sistemos parametrai :** <br/>
 CPU: i7-10510U 1.80 GHz <br/>
